@@ -1,0 +1,130 @@
+
+
+
+materialPath: E:\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\adams\Dropbox\Projects\maps\cp_castle_wars.vmf
+Patching WVT material: maps/cp_castle_wars/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\adams\Dropbox\Projects\maps\cp_castle_wars.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (65080 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 282 texinfos to 193
+Reduced 12 texdatas to 11 (299 bytes to 278)
+Writing C:\Users\adams\Dropbox\Projects\maps\cp_castle_wars.bsp
+Wrote ZIP buffer, estimated size 479, actual size 399
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\users\adams\dropbox\projects\maps\cp_castle_wars.bsp
+reading c:\users\adams\dropbox\projects\maps\cp_castle_wars.prt
+ 387 portalclusters
+1249 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 397 visible clusters (0.53%)
+Total clusters visible: 74555
+Average clusters visible: 192
+Building PAS...
+Average clusters audible: 385
+visdatasize:40618  compressed from 43344
+writing c:\users\adams\dropbox\projects\maps\cp_castle_wars.bsp
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\adams\dropbox\projects\maps\cp_castle_wars.bsp
+1296 faces
+536348 square feet [77234240.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1296 patches before subdivision
+22122 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1333955, max 331
+transfer lists:  10.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(333094, 284445, 252024)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(30620, 22799, 17929)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2854, 1881, 1329)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(415, 242, 153)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(61, 31, 18)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(11, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0032 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                176/8192         2112/98304    ( 2.1%) 
+brushsides            1128/65536        9024/524288   ( 1.7%) 
+planes                 566/65536       11320/1310720  ( 0.9%) 
+vertexes              1744/65536       20928/786432   ( 2.7%) 
+nodes                  782/65536       25024/2097152  ( 1.2%) 
+texinfos               193/12288       13896/884736   ( 1.6%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1296/65536       72576/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              678/65536       37968/3670016  ( 1.0%) 
+leaves                 788/65536       25216/2097152  ( 1.2%) 
+leaffaces             1452/65536        2904/131072   ( 2.2%) 
+leafbrushes            475/65536         950/131072   ( 0.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8833/512000      35332/2048000  ( 1.7%) 
+edges                 4850/256000      19400/1024000  ( 1.9%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             78/32768         780/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1299/65536        2598/131072   ( 2.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1053700/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       40618/16777216 ( 0.2%) 
+entdata               [variable]        3671/393216   ( 0.9%) 
+LDR ambient table      788/65536        3152/262144   ( 1.2%) 
+HDR ambient table      788/65536        3152/262144   ( 1.2%) 
+LDR leaf ambient      4279/65536      119812/1835008  ( 6.5%) 
+HDR leaf ambient       788/65536       22064/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/296      ( 0.3%) 
+pakfile               [variable]         399/0        ( 0.0%) 
+physics               [variable]       65080/4194304  ( 1.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3538
+Writing c:\users\adams\dropbox\projects\maps\cp_castle_wars.bsp
+4 seconds elapsed
